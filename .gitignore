@@ -1,0 +1,78 @@
+# Grand Millennium Dubai RMS - Git Ignore File
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.venv
+.env
+
+# Database (keep structure, ignore data for security)
+# Uncomment next line if you want to exclude database from repo
+# data/rms.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs
+logs/
+*.log
+
+# OS Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Streamlit
+.streamlit/
+
+# Temporary files
+*.tmp
+*.temp
+nohup.out
+
+# Sensitive files (if any)
+config/secrets.json
+.env.local
+.env.production
+
+# Node modules (if any frontend)
+node_modules/
+
+# Backup files
+*.bak
+*.backup
+
+# JetBrains
+.idea/

@@ -1,0 +1,8 @@
+streamlit
+pandas
+numpy
+sqlalchemy
+plotly
+scikit-learn
+python-dateutil
+requests
